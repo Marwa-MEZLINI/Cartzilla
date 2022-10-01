@@ -315,3 +315,52 @@ h2 {
     height: 350px;
     width: 272px;
 }
+
+.fith {
+    display: flex;
+    flex-flow: column;
+
+}
+
+.fith h2 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #373f50;
+    text-align: center;
+}
+
+.pre p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4b566b;
+}
+
+.row2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.row2 a {
+    border-radius: 12px;
+    box-shadow: 0 0.125rem 0.3rem -0.0625rem rgb(0 0 0 / 3%), 0 0.275rem 0.75rem -0.0625rem rgb(0 0 0 / 6%) !important;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: #fff;
+    opacity: 1;
+    margin-bottom: 34px;
+    display: block;
+    text-align: center;
+    height: 80px;
+    width: 258px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.row2 a img {
+    height: 80px;
+    width: 150px;
+    text-align: center;
+}
