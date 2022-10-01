@@ -364,3 +364,74 @@ h2 {
     width: 150px;
     text-align: center;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #2b3445;
+    padding-top: 48px;
+    opacity: 1;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+    padding: 30px;
+    padding-top: 5px;
+    padding-left: 65px;
+}
+
+.top h3 {
+    color: #fff;
+    padding: 20px;
+
+}
+
+.h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 40px;
+}
+
+hr {
+    color: rgba(255, 255, 255, .12);
+    height: 1px;
+    width: 90vw;
+    background-color: rgba(255, 255, 255, .12);
+    border: 0px;
+
+}
+
+.buttom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+.ul a {
+    color: #fff;
+    text-align: left;
+    font-size: 12px;
+    padding-bottom: 24px;
+    opacity: 5;
+    padding-left: 10px;
+}
+
+.ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.crr,
+.crr a {
+    color: #fff;
+    opacity: 5;
+    padding-right: 50px;
+}
