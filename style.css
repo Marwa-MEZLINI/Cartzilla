@@ -189,3 +189,55 @@ h3 {
     color: #373f50;
     text-align: center;
 }
+
+.third {
+    background-image: url(mobile-app-bg.jpg);
+    background-size: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 210px;
+    width: 30vw;
+    margin-right: 50px;
+}
+
+.left p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 7;
+
+}
+
+h2 {
+    color: #fff;
+    font-size: xx-large;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 16px;
+
+}
+
+.right {
+
+    margin-right: 105px;
+    width: 25vw;
+    height: 100%;
+
+}
+
+.right img {
+    max-width: 100%;
+    margin-bottom: 0;
+    align-self: flex-end;
+}
