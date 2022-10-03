@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'rubik';
+    src: url(Rubik-VariableFont_wght.ttf);
+}
+
 a {
     text-decoration: none;
 }
@@ -5,6 +10,7 @@ a {
 body {
     width: 100vw;
     margin: 0px;
+    font-family: 'rubik' sans-serif;
 }
 
 .navbar {
@@ -23,28 +29,26 @@ body {
     height: 80px;
 }
 
-#logo img {
+.navbar__logo--pic img {
     width: 124px;
 }
 
-.container {
+.navbar__container {
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 80%;
 }
 
-
-.nav {
+.navbar__container--nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: baseline;
 }
 
-
-
-.nav a {
+.navbar__container--nav a {
     color: #4b566b;
     padding: 25px;
 }
@@ -55,13 +59,13 @@ li {
 
 }
 
-.icons a img {
+.navbar__icons a img {
     width: 25px;
     height: 25px;
     padding: 5px;
 }
 
-.icons {
+.navbar__icons {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -80,7 +84,7 @@ li {
     justify-content: center;
 }
 
-.first .ds {
+.first__discription {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -115,7 +119,7 @@ span a:hover {
     color: #dc3545;
 }
 
-.btn {
+.first__discription--btn {
     color: #fff;
     background-color: #fe696a;
     border-color: #fe696a;
@@ -130,12 +134,12 @@ span a:hover {
     align-self: center;
 }
 
-.btn:hover {
+.first__discription--btn:hover {
     background-color: #dc3545;
     border-color: #dc3545;
 }
 
-.second h2 {
+.second__discription h2 {
     color: #373f50;
     text-align: center;
     font-weight: 500;
@@ -143,7 +147,7 @@ span a:hover {
     padding-top: 48px;
 }
 
-.second p {
+.second__discription p {
     color: #7d879c;
     text-align: center;
     margin-bottom: 3rem;
@@ -151,7 +155,7 @@ span a:hover {
     font-weight: 400;
 }
 
-.cards {
+.second__cards {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -160,12 +164,12 @@ span a:hover {
     margin-right: 30px;
 }
 
-.card1,
-.card2,
-.card3,
-.card4,
-.card5,
-.card6 {
+.second__cards--1,
+.second__cards--2,
+.second__cards--3,
+.second__cards--4,
+.second__cards--5,
+.second__cards--6 {
     border: 0;
     border-radius: 10px;
     box-shadow: 0 0.25rem 0.5625rem -0.0625rem rgb(0 0 0 / 3%), 0 0.275rem 1.25rem -0.0625rem rgb(0 0 0 / 5%) !important;
@@ -176,14 +180,14 @@ span a:hover {
     margin-bottom: 30px;
 }
 
-.cards img {
+.second__cards img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     max-width: 100%;
     align-self: flex-start;
 }
 
-h3 {
+.second__cards h3 {
     font-size: 20px;
     font-weight: 500;
     color: #373f50;
@@ -199,7 +203,7 @@ h3 {
     justify-content: center;
 }
 
-.left {
+.third__description {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -211,32 +215,29 @@ h3 {
     margin-right: 50px;
 }
 
-.left p {
+.third__description--order p {
     color: #fff;
     font-size: 16px;
     font-weight: 400;
     opacity: 7;
-
 }
 
-h2 {
+.third__description--order h2 {
     color: #fff;
     font-size: xx-large;
     font-weight: 500;
     margin-top: 0;
     margin-bottom: 16px;
-
 }
 
-.right {
+.third__pic {
 
     margin-right: 105px;
     width: 25vw;
     height: 100%;
-
 }
 
-.right img {
+.third__pic img {
     max-width: 100%;
     margin-bottom: 0;
     align-self: flex-end;
@@ -253,11 +254,10 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: center space-around;
-
 }
 
-.courier,
-.partner {
+.fourth__courier,
+.fourth__partner {
     background-color: rgba(105, 179, 254, .09);
     border-radius: 12px;
     padding-left: 15px;
@@ -267,16 +267,15 @@ h2 {
     flex-direction: row;
     align-items: center;
     width: 43vw;
-
 }
 
-.partner {
+.fourth__partner {
     background-color: rgba(254, 165, 105, .09);
     margin-left: 40px;
 }
 
-.cc,
-.pc {
+.fourth__courirer--pic,
+.fourth__partner--pic {
     text-align: left;
     padding: 48px;
     padding-right: 0;
@@ -284,21 +283,21 @@ h2 {
     justify-items: flex-start;
 }
 
-.fourth h1 {
+.fourth__courirer--description h1 {
     font-size: 32px;
     font-weight: 500;
     color: #373f50;
     text-align: left;
 }
 
-.fourth p {
+.fourth__courirer--description p {
     color: #7d879c;
     font-weight: 400;
     font-size: 16px;
     padding-bottom: 20px;
 }
 
-.fourth a {
+.fourth__courirer--description a {
     border: 1px solid #fe696a;
     background-color: #fe696a;
     color: #fff;
@@ -319,31 +318,30 @@ h2 {
 .fith {
     display: flex;
     flex-flow: column;
-
 }
 
-.fith h2 {
+.fith__description h2 {
     font-size: 32px;
     font-weight: 500;
     color: #373f50;
     text-align: center;
 }
 
-.pre p {
+.fith__description p {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
     color: #4b566b;
 }
 
-.row2 {
+.fith__cards {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     padding: 24px;
 }
 
-.row2 a {
+.fith__cards a {
     border-radius: 12px;
     box-shadow: 0 0.125rem 0.3rem -0.0625rem rgb(0 0 0 / 3%), 0 0.275rem 0.75rem -0.0625rem rgb(0 0 0 / 6%) !important;
     padding-top: 24px;
@@ -359,7 +357,7 @@ h2 {
     padding-right: 10px;
 }
 
-.row2 a img {
+.fith__cards a img {
     height: 80px;
     width: 150px;
     text-align: center;
@@ -373,7 +371,7 @@ footer {
     opacity: 1;
 }
 
-.top {
+.footer__top {
     display: flex;
     flex-direction: row;
     justify-content: stretch;
@@ -383,13 +381,12 @@ footer {
     padding-left: 65px;
 }
 
-.top h3 {
+.footer__top h3 {
     color: #fff;
     padding: 20px;
-
 }
 
-.h3 {
+.footer__top--headings {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -405,7 +402,7 @@ hr {
 
 }
 
-.buttom {
+.footer__buttom {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -415,7 +412,7 @@ hr {
     align-items: center;
 }
 
-.ul a {
+.footer__buttom--linkslist a {
     color: #fff;
     text-align: left;
     font-size: 12px;
@@ -424,13 +421,13 @@ hr {
     padding-left: 10px;
 }
 
-.ul {
+.footer__buttom--linkslist {
     display: flex;
     justify-content: space-around;
 }
 
-.crr,
-.crr a {
+.footer__buttom--copyright,
+.footer__buttom--copyright a {
     color: #fff;
     opacity: 5;
     padding-right: 50px;
